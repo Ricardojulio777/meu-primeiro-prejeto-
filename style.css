@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+}
+
+.caixa-1 {
+    display: inline-block;
+    width: 60vw;
+    margin-top: 32vh;
+    margin-left: 136px;
+    
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #5D5D7D;
+    width: 368px;
+}
+
+p {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    color: #5D5D7D;
+    opacity: 0.6;
+    width: 540px;
+    margin: 15px 0px;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    flex-shrink: 0;
+    background-color: rgba(148, 153, 234, 1);
+    border: none;
+    border-radius: 35px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+.caixa-2 {
+    display: inline-block;
+    background-color: rgba(93,93,125,0.6);
+    position: absolute;
+    height: 100vh;
+    width: 40vw;
+ }
+
+header {
+    color: #5D5D7D;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 24px 58px 151px 57px;
+    cursor: pointer;
+}
+
+
+.link-menu {
+    margin-right: 41px;
+    color: #5D5D7D;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.link-menu:nth-child(2) {
+    opacity: 0.4;
+}
+
+.link-menu:hover {
+    opacity: 0.4;
+}
+
+.link-menu:active {
+    opacity: 0,8;
+}
+
+
+
+img {
+    position: relative;
+    top: 25%;
+    right: 135px;
+    height: 534.636px;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .caixa-1 {
+        padding: 0%;
+        margin: 0%;
+        display: block;
+        width: 100%;
+        height: 50vh;
+    }
+    .caixa-2 {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+        
+
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        width: auto;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center; 
+        margin: 58px 50px 0px 50px;
+    }
+
+    p {
+        width: auto;
+        line-height: 24px;
+        font-size: 14px;
+        text-align: center;
+        margin: 15px 40px;
+    }
+
+    button {
+        margin: 0px auto;
+        display: block;
+
+    }
+
+    
+
+}
